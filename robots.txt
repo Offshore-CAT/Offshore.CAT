@@ -5,7 +5,7 @@
 # directory.
 
 User-agent: *
-Sitemap: https://offshore.xbdm.fun/sitemap.xml
+Sitemap: https://offshore-cat.github.io/Offshore.CAT/sitemap.xml
 
 User-agent: dotbot
 Crawl-delay: 25
