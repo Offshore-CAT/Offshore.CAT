@@ -5,35 +5,31 @@
       xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://offshore.xbdm.fun</loc>
+  <loc>https://offshore-cat.github.io/Offshore.CAT</loc>
   <priority>1.00</priority>
 </url>
   <url>
-  <loc>https://offshore.xbdm.fun/domains</loc>
+  <loc>https://offshore-cat.github.io/Offshore.CAT/domains</loc>
   <priority>1.00</priority>
 </url>
   <url>
-  <loc>https://offshore.xbdm.fun/vpn</loc>
+  <loc>https://offshore-cat.github.io/Offshore.CAT/vpn</loc>
   <priority>1.00</priority>
 </url>
   <url>
-  <loc>https://offshore.xbdm.fun/email</loc>
+  <loc>https://offshore-cat.github.io/Offshore.CAT/email</loc>
   <priority>1.00</priority>
 </url>
    <url>
-  <loc>https://offshore.xbdm.fun/cdn</loc>
+  <loc>https://offshore-cat.github.io/Offshore.CAT/cdn</loc>
   <priority>1.00</priority>
 </url>
    <url>
-  <loc>https://offshore.xbdm.fun/cloud</loc>
+  <loc>https://offshore-cat.github.io/Offshore.CAT/cloud</loc>
   <priority>1.00</priority>
 </url>
    <url>
-  <loc>https://offshore.xbdm.fun/drug</loc>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://github.com/xbdmHQ/Offshore.CAT-Reworked</loc>
+  <loc>https://offshore-cat.github.io/Offshore.CAT/drug</loc>
   <priority>1.00</priority>
 </url>
 </urlset>
