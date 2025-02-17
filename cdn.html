@@ -1,0 +1,310 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Offshore Hosting | The Real Offshore Hosting List</title>
+<link rel="icon" href="doxbin.png" />
+<link rel="apple-touch-icon" href="doxbin.png">
+<meta charset="utf-8">
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'>
+<meta name="robots" content="index,follow" />
+	<meta name="googlebot" content="index,follow" />
+	<meta name="googlebot-news" content="index,follow" />
+	<meta name="slurp" content="index,follow" />
+	<meta name="msnbot" content="index,follow" />	
+<link rel="stylesheet" href="./assets/index/css/boostrap.min.css">
+<link rel="stylesheet" href="./assets/index/css/css.css">
+<link rel="stylesheet" href="./assets/index/css/styles.min.css">
+<link rel="stylesheet" href="./assets/index/css/font-awsome.min.css">
+<link rel="stylesheet" href="./assets/index/css/jquery.dataTables.min.css">
+<script src="./assets/js/jquery-3.3.1.js"></script>
+<script src="./assets/js/jquery.dataTables.min.js"></script>
+    <script>
+    $(document).ready(function() {
+    
+        var table = $('#example').DataTable( {
+    "lengthChange": false,
+    "paging": false,
+    "ordering": false,
+    "info": false,
+    language: {
+            searchPlaceholder: "Search records"
+        }
+        } );
+        
+    
+        
+        $("#example tfoot th").each( function ( i ) {
+            var select = $('<select style="text-align: center; margin-top: 10px;"><option value="">Filter</option></select>')
+                .appendTo( $(this).empty() )
+                .on( 'change', function () {
+                    var val = $(this).val();
+      
+                    table.column( i )
+                        .search( val ? '^'+$(this).val()+'$' : val, true, false )
+                        .draw();
+                } );
+     
+            table.column( i ).data().unique().sort().each( function ( d, j ) {
+                select.append( '<option value="'+d+'">'+d+'</option>' )
+            } );
+        } );
+    } );
+        $("li a").on('click', function (e) {
+            $('body').load($(this).attr('href'));
+            e.preventDefault();
+        } );
+    </script>
+    <meta name="description" content="Offshore HOSTING | The Real Offshore Hosting List">
+    </head>
+    <body>
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-10">
+    <div class="widget-box">
+    <p class="section-filters-bar-title"><h1>OFFSHORE<font color="#dc3545">HOSTING</font><br><font style="font-weight:200;" color="white" size="4px"> The Real Offshore Hosting List</font></h1>
+     
+    <ul>
+    <li>
+        <a href="/">
+            <div class="icon ">
+            <i class="fa fa-server" aria-hidden="true"></i>
+            <i class="fa fa-server" aria-hidden="true"></i>
+            </div>
+            <div class="text "> <span data-text="HOSTING">SERVER</span></div>
+            </a>
+            </li>
+            <li>
+            <a href="domains">
+            <div class="icon ">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            <div class="text "><span data-text="REGISTAR">DOMAIN</span></div>
+            </a>
+            </li>
+            <li>
+            <a href="vpn">
+            <div class="icon ">
+            <i class="fa fa-user-secret" aria-hidden="true"></i>
+            <i class="fa fa-user-secret" aria-hidden="true"></i>
+            </div>
+            <div class="text "><span data-text="PROVIDER">VPN</span></div>
+            </a>
+            </li>
+            <li>
+            <a href="email">
+            <div class="icon ">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+            <div class="text "><span data-text="PROVIDER">EMAIL</span></div>
+            </a>
+            </li>
+            <li>
+            <a href="cdn">
+            <div class="icon activeicon">
+            <i class="fa fa-shield" aria-hidden="true"></i>
+            <i class="fa fa-shield" aria-hidden="true"></i>
+            </div>
+            <div class="text activetxt"><span data-text="PROVIDER">CDN/WAF/DDOS</span></div>
+            </a>
+            </li>
+	    <li>
+            <a href="cloud">
+            <div class="icon activeicon">
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+            </div>
+            <div class="text activetxt"><span data-text="PROVIDER">STORAGE</span></div>
+	   </a>
+            </li>
+	    <li>
+	    <a href="drug">
+            <div class="icon activeicon">
+            <i class="fa fa-medkit" aria-hidden="true"></i>
+            <i class="fa fa-medkit" aria-hidden="true"></i>
+            </div>
+            <div class="text activetxt"><span data-text="STORES">DRUG</span></div>
+	    </a>
+            </ul>
+            </div>
+			<br>
+            <div class="widget-box">
+            <table id="example" class="display" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                    <th style="white-space: nowrap;">Name</th>
+                    <th>Website link</th>
+                    <th>Description</th>
+                    <th>Company country</th>
+                    <th>PoP locations</th>
+                    <th>WAF</th>
+                    <th>DDoS protection</th>
+                    <th>Free plan</th>
+                    <th>Payment methods</th>
+                    <th>Status</th>
+                    <th>Last change</th>
+                    </tr>
+                    </thead>
+                    <tfoot>
+                    <tr>
+                    <th style="white-space: nowrap;">Name</th>
+                    <th>Website link</th>
+                    <th>Description</th>
+                    <th>Company country</th>
+                    <th>PoP locations</th>
+                    <th>WAF</th>
+                    <th>DDoS protection</th>
+                    <th>Free plan</th>
+                    <th>Payment methods</th>
+                    <th>Status</th>
+                    <th>Last change</th>
+                    </tr>
+                    </tfoot>
+                    <tbody>
+                    <tr>
+                    <td>DDoSGuard</td>
+                    <td><a href="https://ddos-guard.net/">ddos-guard.net</a></td>
+                    <td>Non-politcally biased DDoS protection provider, used by Doxbin</td>
+                    <td><img src="./assets/index/img/flags_img/ru.png" alt="ru" width="40px"></td>
+                    <td>5</td>
+                    <td>Yes (Customizable)</td>
+                    <td>JS or Captcha</td>
+                    <td>No</td>
+                    <td>Credit card & Crypto</td>
+                    <td>⭐ Premium</td>
+                    <td>2022-10-26</td>
+                    </tr>
+                    <tr>
+		     <td>Cloudflare</td>
+                    <td><a href="https://cloudflare.com">cloudflare.com</a></td>
+                    <td>Will provide protection to most things, famously dropped Kiwifarms & 8chan</td>
+                    <td><img src="./assets/index/img/flags_img/us.png" alt="us" width="40px"></td>
+                    <td>205</td>
+                    <td>Yes (Customizable)</td>
+                    <td>JS or Captcha</td>
+                    <td>Yes</td>
+                    <td>Credit Card</td>
+                    <td>⭐ Premium</td>
+                    <td>2022-10-26</td>
+		    </tr>
+                    <tr>
+		    <td>BunnyCDN</td>
+                    <td><a href="https://bunny.net">bunny.net</a></td>
+                    <td>Will provide protection to most things </td>
+                    <td><img src="./assets/index/img/flags_img/sa.png" alt="sl" width="40px"></td>
+                    <td>114</td>
+                    <td>Yes (Customizable)</td>
+                    <td>JS or Captcha</td>   
+                    <td>Yes</td>
+                    <td>PayPal, Visa, MasterCard, Discover, JCB, Diner's Club, American Express and Crypto</td>
+                    <td>❓ UnVerified</td>
+                    <td>2023/07/03</td>
+	            </tr>
+                    <tr> 		    
+                    <td>Proxy.is</td>
+                    <td><a href="https://proxy.is/">proxy.is</a></td>
+                    <td>Offshore reverse proxy services located in Sweden</td>
+                    <td><img src="./assets/index/img/flags_img/se.png" alt="us" width="40px"></td>
+                    <td>1</td>
+                    <td>Yes</td>
+                    <td>Unknown</td>
+                    <td>No</td>
+                    <td>Crypto</td>
+                    <td>✔️ Verified</td>
+                    <td>2022-10-26</td>
+		     </tr></tr>
+		     <td>TrilightZone</td>
+                    <td><a href="https://trilightzone.org">trilightzone.org</a></td>
+                    <td>Longtime player in the game of providing anonymous services (for small sites), untested</td>
+                    <td><img src="./assets/index/img/flags_img/unknown.png" alt="unknown" width="40px"></td>
+                    <td>3</td>
+                    <td>Unknown</td>
+                    <td>Unknown</td>
+                    <td>No</td>
+                    <td>Crypto</td>
+                    <td>❓ UnVerified</td>
+                    <td>2022-10-26</td>
+		    </tr></tr>
+		     <td>Diamwall</td>
+                    <td><a href="https://www.diamwall.com/">diamwall.com</a></td>
+                    <td>DiamWall is a global Content Delivery Network designed to secure your network with the best protection and using the most advanced technology in the world.</td>
+                    <td><img src="./assets/index/img/flags_img/unknown.png" alt="unknown" width="40px"></td>
+                    <td>4</td>
+                    <td>Unknown</td>
+                    <td>Unknown</td>
+                    <td>No</td>
+                    <td>Unknown</td>
+                    <td>❓ UnVerified</td>
+                    <td>2023/07/17</td>
+		    </tr></tr>
+		     <td>vShield</td>
+                    <td><a href="https://vshield.pro">vshield.pro</a></td>
+                    <td>vShield is the best VPS/RDP hosting solution since 2017.</td>
+                    <td><img src="./assets/index/img/flags_img/ca.png" alt="ca" width="40px"></td>
+                    <td>8</td>
+                    <td>No</td>
+                    <td>JS or Captcha</td>
+                    <td>No</td>
+                    <td>PayPal & Crypto</td>
+                    <td>✔️ Verified</td>
+                    <td>2023/07/17</td>
+                    </tr>
+                    </tbody>
+                    </table>
+                    </div>
+                    </div>
+            <div class="col-sm-2">
+            <img src="doxbin.png" width="100%">
+            <br><br>
+            <p class="widget-box-title"><font color="#DC3545"><u>About</u></font></p>
+            <div class="widget-box-content" style="margin-top:6px;">
+            <p class="paragraph">Offshore HOSTING is a compiled list of the real & genuine, along with the bad & garbage offshore services that we have either used/have had experience with in the past.<br>
+            We publish these reports because I'm tired of getting asked what hosting they should use.<br>
+            Offshore Hosting is not affiliated with any of the listed websites, our website takes zero responsibility from illegal or unethical usage.<br>
+            All informations are exposed as-is and might be not up to date if something recently changed. 
+            <br>
+            <br>
+            Offshore Hosting is a <a href="https://xbdm.fun"><u>xbdm.fun</u></a> Project.
+		     <br>
+            Tor <a href="http://asapmsp2nsqiyufpnw5bziguahdpxbpyc6jbiss35wgca6ka434w27ad.onion/test.php"><u>.onion link online check</u></a> Project.
+	    <br>
+	    <a href="https://github.com/xbdmHQ/Offshore.CAT">This site is open-soruce.</a>
+            <br>
+            <br>
+            </p>
+            <div class="information-line-list">
+            <div class="information-line">
+            <p class="information-line-title">Updated</p>
+            <p class="information-line-text">
+            2024/02/09 </p>
+            </div>
+            <div class="information-line">
+            <p class="information-line-title">Total sites</p>
+            <p class="information-line-text">
+            7  </p>
+            </div>
+            <div class="information-line" style="display: unset;">
+            <p class="information-line-title" style="width: unset;">Legenda</p>
+            <p class="information-line-text">
+             ⭐ <b>Premium</b> - Premium trusted service.<br>
+            ✔️ <b>Verified</b> - Checked service, trusted.<br>
+            💰 <b>Capitalist</b> - Only cares for money, doesn't care for legal rights<br>
+            ❓ <b>Unverified</b> - We have not used or tested.<br>
+            ❌ <b>Trash</b> - Shit services, do not deal with.<br>
+            <br><br>
+            </p>
+            </div>
+            </div>
+            </div>
+            </div>
+            <br>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </body>
+            </html>

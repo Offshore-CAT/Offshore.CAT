@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Offshore HOSTING | The Real Offshore Hosting List</title>
+<link rel="icon" href="doxbin.png" />
+<link rel="apple-touch-icon" href="doxbin.png">
+<meta charset="utf-8">
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'>
+<meta name="robots" content="index,follow" />
+	<meta name="googlebot" content="index,follow" />
+	<meta name="googlebot-news" content="index,follow" />
+	<meta name="slurp" content="index,follow" />
+	<meta name="msnbot" content="index,follow" />	
+<link rel="stylesheet" href="./assets/index/css/boostrap.min.css">
+<link rel="stylesheet" href="./assets/index/css/css.css">
+<link rel="stylesheet" href="./assets/index/css/styles.min.css">
+<link rel="stylesheet" href="./assets/index/css/font-awsome.min.css">
+<link rel="stylesheet" href="./assets/index/css/jquery.dataTables.min.css">
+<script src="./assets/js/jquery-3.3.1.js"></script>
+<script src="./assets/js/jquery.dataTables.min.js"></script>
+    <script>
+    $(document).ready(function() {
+    
+        var table = $('#example').DataTable( {
+    "lengthChange": false,
+    "paging": false,
+    "ordering": false,
+    "info": false,
+    language: {
+            searchPlaceholder: "Search records"
+        }
+        } );
+        
+    
+        
+        $("#example tfoot th").each( function ( i ) {
+            var select = $('<select style="text-align: center; margin-top: 10px;"><option value="">Filter</option></select>')
+                .appendTo( $(this).empty() )
+                .on( 'change', function () {
+                    var val = $(this).val();
+      
+                    table.column( i )
+                        .search( val ? '^'+$(this).val()+'$' : val, true, false )
+                        .draw();
+                } );
+     
+            table.column( i ).data().unique().sort().each( function ( d, j ) {
+                select.append( '<option value="'+d+'">'+d+'</option>' )
+            } );
+        } );
+    } );
+        $("li a").on('click', function (e) {
+            $('body').load($(this).attr('href'));
+            e.preventDefault();
+        } );
+    </script>
+    <meta name="description" content="Offshore HOSTING | The Real Offshore Hosting List">
+    </head>
+    <body>
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-10">
+    <div class="widget-box">
+    <p class="section-filters-bar-title"><h1>OFFSHORE<font color="#dc3545">HOSTING</font><br><font style="font-weight:200;" color="white" size="4px"> The Real Offshore Hosting List</font></h1>
+	 <a href="https://tld-list.com/"><u></u>Compare Prices of All Top-Level Domains</a>    
+ 
+    <ul>
+    <li>
+        <a href="/">
+            <div class="icon ">
+            <i class="fa fa-server" aria-hidden="true"></i>
+            <i class="fa fa-server" aria-hidden="true"></i>
+            </div>
+            <div class="text "> <span data-text="HOSTING">SERVER</span></div>	
+            </a>
+            </li>
+            <li>
+            <a href="domain">
+            <div class="icon activeicon">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            <div class="text activetxt"><span data-text="REGISTAR">DOMAIN</span></div>
+            </a>
+            </li>
+            <li>
+            <a href="vpn">
+            <div class="icon ">
+            <i class="fa fa-user-secret" aria-hidden="true"></i>
+            <i class="fa fa-user-secret" aria-hidden="true"></i>
+            </div>
+            <div class="text "><span data-text="PROVIDER">VPN</span></div>
+            </a>
+            </li>
+            <li>
+            <a href="email">
+            <div class="icon ">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+            <div class="text "><span data-text="PROVIDER">EMAIL</span></div>
+            </a>
+            </li>
+            <li>
+            <a href="cdn">
+            <div class="icon ">
+            <i class="fa fa-shield" aria-hidden="true"></i>
+            <i class="fa fa-shield" aria-hidden="true"></i>
+            </div>
+            <div class="text "><span data-text="PROVIDER">CDN/WAF/DDOS</span></div>
+            </a>
+            </li>
+	    <li>
+            <a href="cloud">
+            <div class="icon activeicon">
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+            <i class="fa fa-cloud" aria-hidden="true"></i>
+            </div>
+            <div class="text activetxt"><span data-text="PROVIDER">STORAGE</span></div>
+	    </a>
+            </li>
+	    <li>
+	    <a href="drug">
+            <div class="icon activeicon">
+            <i class="fa fa-medkit" aria-hidden="true"></i>
+            <i class="fa fa-medkit" aria-hidden="true"></i>
+            </div>
+            <div class="text activetxt"><span data-text="STORES">DRUG</span></div>
+	    </a>
+            </ul>
+            </div>
+			<br>
+            <div class="widget-box">
+            <table id="example" class="display" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                    <th style="white-space: nowrap;">Name</th>
+                    <th>Website Link</th>
+                    <th>Description</th>
+                    <th>Company Country</th>
+                    <th>Clearnet Gateway</th>
+                    <th>TOR Gateway</th>
+                    <th>Payment Methods</th>
+                    <th>Status</th>
+                    <th>Last Change</th>
+                    </tr>
+                    </thead>
+                    <tfoot>
+                    <tr>
+                    <th style="white-space: nowrap;">Name</th>
+                    <th>Website Link</th>
+                    <th>Description</th>
+                    <th>Company Country</th>
+                    <th>Clearnet Gateway</th>
+                    <th>TOR Gateway</th>
+                    <th>Payment Methods</th>
+                    <th>Status</th>
+                    <th>Last Change</th>
+                    </tr>
+                    </tfoot>
+                    <tbody>
+                    <td>NiceNic</td>
+                    <td><a href="https://nicenic.net/">nicenic.net</a></td>
+                    <td>A perfect example of a domain registrar, doesn't comply with Spamhaus Domain Block List</td>
+                    <td><img src="./assets/index/img/flags_img/cn.png" alt="nl" width="40px"></td>
+                    <td>Yes</td>
+                    <td>Unavailable</td>
+                    <td>Crypto + Paypal</td>
+                    <td>✔️ Verified</td>
+                    <td>2022-10-26</td>
+                    </tr><tr>
+                    <td>Shinjiru</td>
+                    <td><a href="https://billing.shinjiru.com/cart.php?a=add&domain=register">shinjiru.com</a></td>
+                    <td>Used by Doxbin for years, never had an issue</td>
+                    <td><img src="./assets/index/img/flags_img/my.png" alt="my" width="40px"></td>
+                    <td>Yes</td>
+                    <td>Unavailable</td>
+                    <td>Crypto, Paypal, Credit Card & more</td>
+                    <td>✔️ Verified</td>
+                    <td>2022-10-26</td>
+	            </tr>
+                    <td>PrivateAlps</td>
+                    <td><a href="https://privatealps.net/">privatealps.net</a></td>
+                    <td>Anonymous clearnet & tor domain registration (contact them)</td>
+                    <td><img src="./assets/index/img/flags_img/unknown.png" alt="to" width="40px"></td>
+                    <td>Yes</td>
+                    <td>Available</td>
+                    <td>Crypto</td>
+                    <td>✔️ Verified</td>
+                    <td>2022-10-26</td>
+                    </tr><tr>
+                    <td>Tonic</td>
+                    <td><a href="https://www.tonic.to/">tonic.to</a></td>
+                    <td>.TO Domain Registrar, used by nulled.to</td>
+                    <td><img src="./assets/index/img/flags_img/to.png" alt="to" width="40px"></td>
+                    <td>Yes</td>
+                    <td>Unavailable</td>
+                    <td>Credit Card</td>
+                    <td>✔️ Verified</td>
+                    <td>2022-10-26</td>
+                    </tr><tr>
+                    <td>RegRU</td>
+                    <td><a href="https://reg.ru/">reg.ru</a></td>
+                    <td>Russian hosting provider and domain registrar.</td>
+                    <td><img src="./assets/index/img/flags_img/ru.png" alt="ru" width="40px"></td>
+                    <td>Yes</td>
+                    <td>Unavailable</td>
+                    <td>Credit card</td>
+                    <td>✔️ Verified</td>
+                    <td>2022-10-26</td>
+		    </tr><tr>
+                    <td>Pknic.Net.Pk</td>
+                    <td><a href="https://www.pknic.net.pk/">pknic.net.pk</a></td>
+                    <td>PKNIC operates and administers the "Shared Registry System" for Internet name space for .PK domains. PKNIC is responsible for the administration of the .PK domain name space, including the operation of the DNS for the Root-Servers for .PK domains, and registration and maintenance of all .PK domain names.</td>
+                    <td><img src="./assets/index/img/flags_img/pk.png" alt="pk" width="40px"></td>
+                    <td>Yes</td>
+                    <td>Unavailable</td>
+                    <td>Cheque/Bank Drafts, Pre-paid Card, Credit Card</td>
+                    <td>❓ UnVerified</td>
+                    <td>2023/06/29</td>
+		    </tr><tr>
+                    <td>Xuid.RU</td>
+                    <td><a href="https://store.xuid.ru/">xuid.ru</a></td>
+                    <td>Known to be offshore and very good.</td>
+                    <td><img src="./assets/index/img/flags_img/ru.png" alt="ru" width="40px"></td>
+                    <td>Yes</td>
+                    <td>Unavailable</td>
+                    <td>Crypto, Wire Transfer, Credit Card, PayPal</td>
+                    <td>❓ UnVerified</td>
+                    <td>2023/06/29</td>
+                    </tr><tr>
+		    <td>UA-Hosting</td>
+                    <td><a href="https://ua-hosting.org/bill/zones.php">ua-hosting.org</a></td>
+                    <td>Cheap .su and .ru domains for your offshore hosting.</td>
+                    <td><img src="./assets/index/img/flags_img/ru.png" alt="ru" width="40px"></td>
+                    <td>Yes</td>
+                    <td>Unavailable</td>
+                    <td>Crypto, Wire Transfer, Credit Card, PayPal</td>
+                    <td>❓ UnVerified</td>
+                    <td>2024/02/11</td>
+                    </tbody>
+                    </table>
+                    </div>
+                    </div>
+            <div class="col-sm-2">
+            <img src="doxbin.png" width="100%">
+            <br><br>
+            <p class="widget-box-title"><font color="#DC3545"><u>About</u></font></p>
+            <div class="widget-box-content" style="margin-top:6px;">
+            <p class="paragraph">Offshore HOSTING is a compiled list of the real & genuine, along with the bad & garbage offshore services that we have either used/have had experience with in the past.<br>
+            We publish these reports because I'm tired of getting asked what hosting they should use.<br>
+            Offshore HOSTING is not affiliated with any of the listed websites, our website takes zero responsibility from illegal or unethical usage.<br>
+            All informations are exposed as-is and might be not up to date if something recently changed. 
+            <br>
+            <br>
+            Offshore HOSTING is a <a href="https://xbdm.fun"><u>xbdm.fun</u></a> Project.
+		     <br>
+            Tor <a href="http://asapmsp2nsqiyufpnw5bziguahdpxbpyc6jbiss35wgca6ka434w27ad.onion/test.php"><u>.onion link online check</u></a> Project.
+            <br>
+	    <a href="https://github.com/xbdmHQ/Offshore.CAT">This site is open-soruce.</a>
+            <br>
+            </p>
+            <div class="information-line-list">
+            <div class="information-line">
+            <p class="information-line-title">Updated</p>
+            <p class="information-line-text">
+            2024/02/11 </p>
+            </div>
+            <div class="information-line">
+            <p class="information-line-title">Total sites</p>
+            <p class="information-line-text">
+            8 </p>
+            </div>
+            <div class="information-line" style="display: unset;">
+            <p class="information-line-title" style="width: unset;">Legenda</p>
+            <p class="information-line-text">
+            ⭐ <b>Premium</b> - Premium trusted service.<br>
+            ✔️ <b>Verified</b> - Checked service, trusted.<br>
+            💰 <b>Capitalist</b> - Only cares for money, doesn't care for legal rights<br>
+            ❓ <b>Unverified</b> - We have not used or tested.<br>
+            ❌ <b>Trash</b> - Shit services, do not deal with.<br>
+            <br><br>
+            </p>
+            </div>
+            </div>
+            </div>
+            </div>
+            <br>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </body>
+            </html>

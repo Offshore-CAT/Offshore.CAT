@@ -1,0 +1,14 @@
+# "A robots.txt a day keeps the robots away."
+# (for performance and privacy reasons)
+#
+# Note: To be effective this robots.txt must be put into the root of your server
+# directory.
+
+User-agent: *
+Sitemap: https://offshore.xbdm.fun/sitemap.xml
+
+User-agent: dotbot
+Crawl-delay: 25
+
+User-agent: MJ12bot
+Crawl-delay: 10

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://offshore.xbdm.fun</loc>
+  <priority>1.00</priority>
+</url>
+  <url>
+  <loc>https://offshore.xbdm.fun/domains</loc>
+  <priority>1.00</priority>
+</url>
+  <url>
+  <loc>https://offshore.xbdm.fun/vpn</loc>
+  <priority>1.00</priority>
+</url>
+  <url>
+  <loc>https://offshore.xbdm.fun/email</loc>
+  <priority>1.00</priority>
+</url>
+   <url>
+  <loc>https://offshore.xbdm.fun/cdn</loc>
+  <priority>1.00</priority>
+</url>
+   <url>
+  <loc>https://offshore.xbdm.fun/cloud</loc>
+  <priority>1.00</priority>
+</url>
+   <url>
+  <loc>https://offshore.xbdm.fun/drug</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://github.com/xbdmHQ/Offshore.CAT-Reworked</loc>
+  <priority>1.00</priority>
+</url>
+</urlset>

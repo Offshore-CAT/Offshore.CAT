@@ -1,0 +1,169 @@
+.card-section {
+    display: none;
+  }
+    .row{
+    padding-top:20px !important;
+    }
+     tfoot {
+     color: white;
+        display: table-header-group !important;
+    }
+    th {
+        text-align: center!important;
+    }
+    table.dataTable tfoot th, table.dataTable tfoot td {
+        padding: 0px 5px 10px 10px;
+        border-top: 0px solid #111;
+    }
+    table.dataTable thead th, table.dataTable thead td {
+        padding: 0px 10px;
+        border-bottom: 0px solid #111;
+    }
+    .dataTables_filter{
+    padding-bottom:20px;
+    }
+    thead{
+    color:white;
+    }
+    td {
+      text-align: center;
+      vertical-align: middle;
+    }
+    .table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd {
+        background  :#0000002b !important;
+        color: white;
+    }
+    .table.dataTable.stripe tbody tr.even, table.dataTable.display tbody tr.even {
+        background  :#0009 !important;
+        color: white;
+    }
+    .table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td {
+    border-top: 1px solid #dc354585;
+    }
+    input[type=search] {
+        background: #181818;
+        color: white;
+        border-bottom: 1px;
+        border-color: #dc3545;
+        border-style: solid;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        text-align: center;
+    }
+    .current-link {
+        color:#dc3545;
+    }
+    ul{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    margin:0;
+    padding:20px 0;
+    
+    display:flex;
+    
+    
+    }
+    ul li{
+    list-style:none;
+    text-align:center;
+    display:block;
+    border-right:1px solid rgb(220, 53, 69, 0.2);
+    }
+    ul li:last-child{
+    border-right:none;
+    }
+    ul li a{
+    text-decoration:none;
+    padding:0 40px;
+    display:block;
+    }
+    ul li a .icon{
+    height:30px;
+    width:30px;
+    text-align:center;
+    overflow:hidden;
+    margin:0 auto 10px;
+    }
+    ul li a .icon .fa{
+    height:100%;
+    width:100%;
+    line-height:30px;
+    font-size:24px;
+    transition:0.5s;
+    color:#FFF;
+    }
+    ul li a .activeicon .fa{
+    height:100%;
+    width:100%;
+    line-height:30px;
+    font-size:24px;
+    transition:0.5s;
+    color:#dc3545;
+    }
+    ul li a .icon .fa:last-child{
+    color:#dc3545;
+    }
+    ul li a:hover .icon .fa{
+    transform:translatey(-110%);
+    }
+    ul li a .text{
+    position:relative;
+    height:20px;
+    width:100%;
+    display:block;
+    overflow:hidden;
+    }
+    ul li a .text span{
+    position:relative;
+    font-size:22px;
+    color:#fff;
+    display:block;
+    line-height:20px;
+    transition:0.5s;
+    }
+    ul li a .activetxt span{
+    position:relative;
+    font-size:22px;
+    color:#dc3545;
+    display:block;
+    line-height:20px;
+    transition:0.5s;
+    }
+    ul li a .text span:before{
+    content:attr(data-text);
+    position:absolute;
+    top:-100%;
+    left:0;
+    height:100%;
+    width:100%;
+    color:#dc3545;
+    }
+    ul li a:hover .text span{
+    transform:translatey(20px);
+    }
+    @media screen and (max-width: 450px) {
+    ul li a, ul, ul li{
+    width:50%;
+    }
+    }
+    active-nav{
+    color:green !important;
+    }
+    .ads{
+    padding-right:30px !important; 
+    padding-left:5px !important;
+    }
+    @media (max-width: 768px) {
+    .ads{
+    padding-right:0px !important; 
+    padding-left:0px !important;
+    }	
+    }
+    @media (max-width: 768px) {
+    .adsimg{
+    padding-top:5px !important; 
+    }
+    }
