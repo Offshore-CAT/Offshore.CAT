@@ -22,3 +22,12 @@ Navigate through the intuitive interface to manage your hosting.
 
 ## License
 This project is licensed under the GNU Affero General Public License v3.0.
+
+# Promotions
+
+[Twitter/X Post by DarkWebInformer](https://x.com/DarkWebInformer/status/1874210930747469851?mx=2)
+
+# Other Resources
+
+- https://intelrepository.com/
+- https://offshore.cat - This is the main website, but it is a troll/has malware in it - see [here](https://urlhaus.abuse.ch/host/files.offshore.cat/), and [here](https://otx.alienvault.com/indicator/domain/files.offshore.cat) It is also on [ScamAdvisor](https://www.scamadviser.com/check-website/files.offshore.cat)
