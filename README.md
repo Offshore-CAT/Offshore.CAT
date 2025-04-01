@@ -27,6 +27,10 @@ This project is licensed under the GNU Affero General Public License v3.0.
 
 [Twitter/X Post by DarkWebInformer](https://x.com/DarkWebInformer/status/1874210930747469851?mx=2)
 
+# Backups
+
+- [OFFSHORE](https://archive.ph) - Make sure to archive the pages incase of takedowns.
+
 # Other Resources
 
 - https://intelrepository.com/
